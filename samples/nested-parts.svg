@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" width="200mm" height="120mm">
+  <!-- 主板（外轮廓），内含两个孔：圆孔 + 方孔 -->
+  <rect x="5" y="5" width="120" height="110" rx="6" fill="none" stroke="black" stroke-width="0.3"/>
+  <circle cx="40" cy="45" r="12" fill="none" stroke="black" stroke-width="0.3"/>
+  <rect x="70" y="30" width="22" height="22" fill="none" stroke="black" stroke-width="0.3"/>
+  <!-- 孔中再套一个小圆片（三层嵌套） -->
+  <circle cx="40" cy="45" r="4" fill="none" stroke="black" stroke-width="0.3"/>
+  <!-- 独立零件（与主板不相交） -->
+  <polygon points="150,30 185,30 185,95 150,95" fill="none" stroke="black" stroke-width="0.3"/>
+  <!-- 独立零件内孔（椭圆，含曲线） -->
+  <ellipse cx="167.5" cy="62.5" rx="10" ry="18" fill="none" stroke="black" stroke-width="0.3"/>
+</svg>

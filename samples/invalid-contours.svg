@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120">
+  <!-- 自交轮廓（蝴蝶结），将被标红并从排程剔除 -->
+  <path d="M10,10 L110,110 L110,10 L10,110 Z" fill="none" stroke="black"/>
+  <!-- 未闭合轮廓（缺 Z），将被标记为未闭合 -->
+  <path d="M140,10 L190,10 L190,60" fill="none" stroke="black"/>
+  <!-- 正常轮廓 -->
+  <rect x="140" y="70" width="45" height="40" fill="none" stroke="black"/>
+</svg>
