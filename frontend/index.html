@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>激光切割路径排程工具</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <div class="logo">⚡ <span>LaserCut</span> 路径排程</div>
+      </header>
+      <aside class="sidebar">
+        <div id="upload-zone">
+          <div class="up-icon">📄</div>
+          <p><b>点击或拖入 SVG</b></p>
+          <p class="muted small">支持 path / rect / circle / ellipse / polygon</p>
+          <input id="svg-file" type="file" accept=".svg,image/svg+xml" />
+        </div>
+        <div class="section-title">项目</div>
+        <div id="project-list"></div>
+      </aside>
+      <main id="detail" class="detail"></main>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
